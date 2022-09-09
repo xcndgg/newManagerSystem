@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ font:12px/20px Tahoma;}
+table{ border-collapse:collapse;}
+img{ border:0;}
+li{ list-style:none;}
+
+a{ color:#335884; text-decoration:none;}
+a:hover{ color:#f00; text-decoration:underline;}
+
+#header{ clear:both; position:relative; margin:0 auto; margin-top:15px; width:947px; height:116px; border:1px solid #dfdfdf; background:url(../images/topbg.gif) repeat-x;}
+	#top_login{ padding:6px 0 0 10px;}
+		.login_input{ height:19px; line-height:19px; width:118px; border:none; background:url(../images/login_input.gif) no-repeat; margin:0 14px 0 6px;}
+		.login_sub{ width:51px; height:19px; border:none; background:url(../images/login_sub.gif) no-repeat;}
+		.login_link{ text-decoration:underline; margin:0 6px;}
+		#friend_logo{ position:absolute; top:6px; right:6px;}
+		
+	#nav{ clear:both;}
+		#logo{ float:left; width:145px; margin:8px 0 0 12px;}
+		
+		#mainnav{ float:right; margin:10px 10px 0 0 ;}
+		#mainnav ul{ clear:both;}
+		#mainnav ul li{ float:left; margin:0 2px; padding-left:6px; background:url(../images/nav_leftdot.gif) no-repeat 0 8px; line-height:24px;}
+		#mainnav ul li a{ color:#333;}
+		#mainnav ul li.leftLineTop{ background-image:url(../images/nav_leftline.gif);}
+		#mainnav ul li.headLi{ background:none;}
+		
+		
+#container{ clear:both; width:947px; height:100%; overflow:hidden; margin:14px auto 0;}
+	.sidebar{ float:left; width:157px;}
+		.sidebar h1{ clear:both;}
+		.side_list{ height:250px; background:url(../images/sidebarbg.gif) no-repeat; margin:2px 0 12px;}
+	.main{ float:right; width:787px;}
+		.class_type{ background:url(../images/class_bg.gif) no-repeat right 8px; height:40px; padding:0 0 0 14px;}
+		.content{ float:left; width:500px; border-right:1px solid #eff0f4; margin:16px 0 0 10px;}
+			.class_date{ font:12px/20px Arial; border-bottom:1px solid #d4d6d9; margin-right:10px;}
+				#class_month{ font-weight:600;}
+				#class_month a{ margin:0 7px; *margin:0 5px;}
+				#class_day{ line-height:30px;}
+			.classlist{ clear:both; margin-top:10px;}
+			.classlist li{ position:relative; line-height:22px; background:url(../images/arrow.gif) no-repeat 0 10px; padding:0 130px 0 8px;}
+			.classlist li.space{ background:none; height:22px;}
+			.classlist li span{ position:absolute; top:-1px; *top:-4px; right:16px;}
+		.picnews{ float:right; width:250px; text-align:center; margin:16px 0 0 0;}
+		.picnews li{ margin-bottom:10px;}
+		
+	
+#friend{ clear:both; width:947px; height:140px; margin:0 auto;}
+	.friend_t{ height:24px; border:1px solid #b3b7ba; background:url(../images/friend_t.gif) repeat-x; padding:4px 0 0 10px;}
+	.friend_list{ height:110px; overflow:hidden; background:url(../images/firend_bg.gif) repeat-x; border:1px solid #bfd0d5; border-top:0;}
+	.friend_list ul{ margin:14px 10px 0;}
+	.friend_list li{ float:left; margin-right:10px; white-space:nowrap;}
+
+#footer{ clear:both; width:947px; margin:14px auto 0; text-align:center;}
+	#footer p{ font:14px/24px Arial; color:#999;}
+	#footer p.copyright{ color:#333; margin-top:15px;}
+
